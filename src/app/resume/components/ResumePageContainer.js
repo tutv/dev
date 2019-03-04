@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import ResumePage from "./ResumePage"
 import Head from 'next/head'
-
+import '../styles/index.scss'
 
 class ResumePageContainer extends Component {
     render() {

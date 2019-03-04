@@ -1,0 +1,14 @@
+.ResumeHeader {
+    .SubHead {
+        .Address, .Phone {
+            margin-right: 5px;
+            padding-right: 5px;
+
+            &:after {
+                content: '•';
+                position: relative;
+                left: 5px;
+            }
+        }
+    }
+}

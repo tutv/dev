@@ -2,8 +2,9 @@ const fs = require('fs')
 const {join} = require('path')
 const {promisify} = require('util')
 const copyFile = promisify(fs.copyFile)
+const withSass = require('@zeit/next-sass')
 
-module.exports = {
+module.exports = withSass({
     exportPathMap: async function (defaultPathMap, {dev, dir, outDir, distDir, buildId}) {
         if (dev) {
             return defaultPathMap
@@ -16,4 +17,4 @@ module.exports = {
             '/cv': {page: '/cv'},
         }
     }
-}
+})
