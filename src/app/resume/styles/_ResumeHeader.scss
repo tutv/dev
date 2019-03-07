@@ -1,5 +1,18 @@
 .ResumeHeader {
+    margin-bottom: 20px;
+
+    .Name {
+        border-bottom: 1px solid #333;
+    }
+
     .SubHead {
+        font-size: 0.875rem;
+        line-height: 1;
+
+        > * {
+            color: #333;
+        }
+
         .Address, .Phone {
             margin-right: 5px;
             padding-right: 5px;

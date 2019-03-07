@@ -1,0 +1,10 @@
+.ResumePage {
+    padding: 20px;
+}
+
+@media all and (min-width: 768px) {
+    .ResumePage {
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+}

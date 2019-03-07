@@ -1,6 +1,8 @@
 import React from 'react'
 import App, {Container} from 'next/app'
+import "../styles/index.scss"
 import Background from "../app/background/components/Background"
+import HeadBase from "../app/partials/components/HeadBase"
 
 class MyApp extends App {
     static async getInitialProps({Component, ctx}) {
@@ -18,6 +20,7 @@ class MyApp extends App {
 
         return (
             <Container>
+                <HeadBase/>
                 <Component {...pageProps} />
                 <Background/>
             </Container>
