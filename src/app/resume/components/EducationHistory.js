@@ -3,19 +3,20 @@ import React, {Component} from 'react'
 class EducationHistory extends Component {
     render() {
         return (
-            <div className="EducationHistory">
+            <div className="EducationHistory Section">
                 <h3 className="SectionTitle">Education history</h3>
 
                 <div className="MainSection">
-                    <ul className="Listing">
-                        <li>3+ years of experience in the manufacturing industry</li>
-                        <li>Solid background in process development, product quality control and equipment design</li>
-                        <li>Boosted company sales by 30% within a 2-year period by establishing new products and
-                            clients
-                        </li>
-                        <li>Proficient in MS Office, Flash, HTML and Adobe Photoshop</li>
-                        <li>Multilingual: Fluent in English and Vietnamese</li>
-                    </ul>
+                    <div className="TimeLine">
+                        <div className="HeadTime">
+                            <div className="TimeTitle">B.S. Degree in Information Technology</div>
+                            <div className="TimeRange">2013 - 2017</div>
+                        </div>
+                        <div className="MainTime">
+                            <div className="Text">VNU - University of Engineering and Technology, Vietnam
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         )
