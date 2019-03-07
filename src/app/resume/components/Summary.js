@@ -27,7 +27,7 @@ class Summary extends Component {
                         within groups. I can also do some mentoring tasks and do code reviews for other team members.
                     </p>
 
-                    <p className="Paragraph">I often write blog and share them on
+                    <p className="Paragraph">I often write blogs and share them on
                         <span> </span><a href="https://medium.com/@tutv" target="_blank">Medium</a> and help others on
                         <span> </span><a href="https://stackoverflow.com/users/4415285" target="_blank">Stack
                             Overflow</a>.
