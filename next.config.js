@@ -11,6 +11,7 @@ module.exports = withSass({
         }
 
         await copyFile(join(dir, 'static', 'robots.txt'), join(outDir, 'robots.txt'))
+        await copyFile(join(dir, 'static', 'sitemap.xml'), join(outDir, 'sitemap.xml'))
 
         return {
             '/': {page: '/'},
