@@ -16,6 +16,7 @@ module.exports = withSass({
         return {
             '/': {page: '/'},
             '/cv': {page: '/cv'},
+            '/hs': {page: '/hs'},
         }
     }
 })
