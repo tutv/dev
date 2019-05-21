@@ -1,5 +1,4 @@
 import React, {Component} from 'react'
-import Router from 'next/router'
 
 class IndexPage extends Component {
     render() {
